@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.signup-btn {
+    background: #28a745;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.search-section {
+    text-align: center;
+    padding: 2rem;
+    background: #f8f9fa;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.search-box input {
+    padding: 0.5rem;
+    width: 200px;
+}
+
+.search-box button {
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.specialists {
+    padding: 2rem;
+    background: #e9ecef;
+}
+
+.specialist-cards {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.card {
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.testimonials {
+    text-align: center;
+    padding: 2rem;
+    background: #f8f9fa;
+}
+
+.features {
+    padding: 2rem;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    margin: 0.5rem 0;
+}T
+
+.newsletter {
+    text-align: center;
+    padding: 2rem;
+    background: #e9ecef;
+}
+
+.newsletter form {
+    margin-top: 1rem;
+}
+
+.newsletter input {
+    padding: 0.5rem;
+    width: 250px;
+}
+
+.newsletter button {
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #343a40;
+    color: #fff;
+}
+
+.search-box {
+    border: 2px;
+    background-color: red  ;
+    height: auto;
+}
+
+.Farmers-starts{
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+    margin top: 1rem;
+    height: 50%;
+}
+
+
+
